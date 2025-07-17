@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  /*justify-content: center;
+  align-items: center;*/
+  /*height: 100vh;*/
+  margin: 0;
+  background: #b22626;
+}
+
+.site-links-container{
+    background-color: rgb(169, 26, 169);
+    display: grid;
+    grid-template-columns: repeat(2, auto); 
+    gap: 1rem;
+    padding: 1rem;
+}
+
+
+button {
+  padding: 10%;
+  cursor: pointer;
+}
+button img {
+  height: 2em;        /* or use px like 24px */
+  width: auto;        /* keeps aspect ratio */
+  vertical-align: middle;
+  /*margin-left: 0.5em;  spacing between text and image */
+  
+}
